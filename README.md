@@ -13,6 +13,8 @@ loadstring(game:HttpGet(""))()
 ```
 ## For the main body
 
+☟ without this the Hub wouldn't work! 
+
 ```lua
 local Window = Pinostrian:CreateWindow({
     Name = "Pinostrian Hub",
