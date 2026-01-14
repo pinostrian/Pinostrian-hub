@@ -35,6 +35,23 @@ local Window = Pinostrian:CreateWindow({
 local Main = Window:CreateTab("Main")
 ```
 
+## Adding Buttons, Toggle! 
+
+## Buttons
+
+```lua
+Main:AddButton("Test Button", function()
+    print("Works")
+end)
+```
+
+## Toggle
+
+```lua
+Main:AddToggle("Test Toggle", false, function(v)
+    print("Toggle:", v)
+end)
+```
 
 # Credits
 
