@@ -11,9 +11,26 @@ this one handles the codes for building and adding
 ```
 loadstring(game:HttpGet(""))()
 ```
-## Adding Buttons&Toggle and Tabs
+## For the main body
+
+```lua
+local Window = Pinostrian:CreateWindow({
+    Name = "Pinostrian Hub",
+    Loading = true,
+    LoadingTitle = "Pinostrian Initializing...",
+    KeySystem = false,
+
+    FloatingIcon = {
+        Enabled = true,
+        Image = "rbxassetid://124558441880674",
+        Size = 64,
+        Position = UDim2.fromScale(0.03, 0.55)
+    }
+})
+```
+
+## Adding Tabs
+
 ```Lua
-Main:AddToggle("God Mode", false, function(v)
-    print("Toggle:", v)
-end)
+local Main = Window:CreateTab("Main")
 ```
