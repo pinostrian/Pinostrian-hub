@@ -34,3 +34,8 @@ local Window = Pinostrian:CreateWindow({
 ```Lua
 local Main = Window:CreateTab("Main")
 ```
+
+
+# Credits
+
+**@pinostrian**
